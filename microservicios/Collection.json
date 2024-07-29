@@ -1,0 +1,36 @@
+{
+    "info": {
+        "name": "Microservices API",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "Get Clientes",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8081/api/clientes",
+                    "protocol": "http",
+                    "host": ["localhost"],
+                    "port": "8081",
+                    "path": ["api", "clientes"]
+                }
+            }
+        },
+        {
+            "name": "Get Cuentas",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8082/api/cuentas",
+                    "protocol": "http",
+                    "host": ["localhost"],
+                    "port": "8082",
+                    "path": ["api", "cuentas"]
+                }
+            }
+        }
+    ]
+}
