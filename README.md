@@ -116,7 +116,7 @@ microservicios
 ├── BaseDatos.sql
 ├── Collection.json
 ├── README.md
-
+```
 
 ## Instrucciones de Despliegue
 Requisitos
@@ -148,7 +148,7 @@ Microservicio 1 (Clientes): http://localhost:8081/api/clientes
 Microservicio 2 (Cuentas y Movimientos): http://localhost:8082/api/cuentas
 
 
-##Pruebas
+## Pruebas
 Pruebas Unitarias
 Las pruebas unitarias están ubicadas en los respectivos directorios src/test/java/com/ejemplo/microservicio1/test y src/test/java/com/ejemplo/microservicio2/test.
 
@@ -160,7 +160,7 @@ Copiar código
 Pruebas de Integración
 Las pruebas de integración también están ubicadas en los directorios de pruebas mencionados anteriormente. Estas pruebas aseguran que los componentes del sistema funcionan correctamente cuando se integran.
 
-API Endpoints
+## API Endpoints
 Microservicio 1: Gestión de Clientes
 GET /api/clientes: Obtiene todos los clientes.
 GET /api/clientes/{id}: Obtiene un cliente por ID.
@@ -176,11 +176,11 @@ DELETE /api/cuentas/{id}: Elimina una cuenta por ID.
 GET /api/movimientos: Obtiene todos los movimientos.
 GET /api/movimientos/{id}: Obtiene un movimiento por ID.
 POST /api/movimientos: Crea un nuevo movimiento.
-Base de Datos
+## Base de Datos
 El script SQL para crear la base de datos se encuentra en el archivo BaseDatos.sql.
 
-Estructura de la Base de Datos
-Persona
+### Estructura de la Base de Datos
+####Persona
 
 Id (Primary Key)
 Nombre
@@ -189,13 +189,16 @@ Edad
 Identificacion
 Direccion
 Telefono
-Cliente
+
+
+#### Cliente
 
 ClienteId (Primary Key)
 Contrasena
 Estado
 Id (Foreign Key de Persona)
-Cuenta
+
+####Cuenta
 
 Id (Primary Key)
 NumeroCuenta
@@ -203,7 +206,8 @@ TipoCuenta
 SaldoInicial
 Estado
 ClienteId (Foreign Key de Cliente)
-Movimiento
+
+#### Movimiento
 
 Id (Primary Key)
 Fecha
