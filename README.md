@@ -162,20 +162,35 @@ Las pruebas de integración también están ubicadas en los directorios de prueb
 
 ## API Endpoints
 Microservicio 1: Gestión de Clientes
+
 GET /api/clientes: Obtiene todos los clientes.
+
 GET /api/clientes/{id}: Obtiene un cliente por ID.
+
 POST /api/clientes: Crea un nuevo cliente.
+
 PUT /api/clientes/{id}: Actualiza un cliente existente.
+
 DELETE /api/clientes/{id}: Elimina un cliente por ID.
+
 Microservicio 2: Gestión de Cuentas y Movimientos
+
 GET /api/cuentas: Obtiene todas las cuentas.
+
 GET /api/cuentas/{id}: Obtiene una cuenta por ID.
+
 POST /api/cuentas: Crea una nueva cuenta.
+
 PUT /api/cuentas/{id}: Actualiza una cuenta existente.
+
 DELETE /api/cuentas/{id}: Elimina una cuenta por ID.
+
 GET /api/movimientos: Obtiene todos los movimientos.
+
 GET /api/movimientos/{id}: Obtiene un movimiento por ID.
+
 POST /api/movimientos: Crea un nuevo movimiento.
+
 ## Base de Datos
 El script SQL para crear la base de datos se encuentra en el archivo BaseDatos.sql.
 
