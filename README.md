@@ -161,7 +161,7 @@ Pruebas de Integración
 Las pruebas de integración también están ubicadas en los directorios de pruebas mencionados anteriormente. Estas pruebas aseguran que los componentes del sistema funcionan correctamente cuando se integran.
 
 ## API Endpoints
-Microservicio 1: Gestión de Clientes
+### Microservicio 1: Gestión de Clientes
 
 GET /api/clientes: Obtiene todos los clientes.
 
@@ -173,7 +173,7 @@ PUT /api/clientes/{id}: Actualiza un cliente existente.
 
 DELETE /api/clientes/{id}: Elimina un cliente por ID.
 
-Microservicio 2: Gestión de Cuentas y Movimientos
+### Microservicio 2: Gestión de Cuentas y Movimientos
 
 GET /api/cuentas: Obtiene todas las cuentas.
 
